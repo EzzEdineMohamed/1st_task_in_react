@@ -3,14 +3,14 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import About from "./components/About/About.jsx";
-import Portfolio from "./components/portfolio/portfolio.jsx";
+import Portfolio from "./components/Portfolio/Portfolio.jsx";
 import {
   createBrowserRouter,
   Navigate,
   RouterProvider,
 } from "react-router-dom";
-import Home from "./components/home/home.jsx";
-import Contact from "./components/contact/contact.jsx";
+import Home from "./components/Home/Home.jsx";
+import Contact from "./components/Contact/Contact.jsx";
 import MainLayout from "./Layouts/MainLayout.jsx";
 import NotFound from "./components/NotFound/NotFound.jsx";
 import "./index.css";
