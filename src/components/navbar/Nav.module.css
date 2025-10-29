@@ -1,0 +1,9 @@
+.bg_custom {
+    background-color: #2C3E50;
+} 
+
+.focus:focus {
+    background-color: #1ABC9C;
+    border-radius: 5px;
+    transition: 0.3s;
+} 

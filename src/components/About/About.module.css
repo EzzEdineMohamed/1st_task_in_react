@@ -1,0 +1,19 @@
+.bg_custom {
+  background-color: #1abc9c;
+}
+
+.left {
+  width: 70px;
+  height: 6px;
+  margin-top: 5px;
+  margin-right: 10px;
+  background-color: white;
+}
+
+.right {
+  width: 70px;
+  height: 6px;
+  margin-top: 5px;
+  margin-left: 10px;
+  background-color: white;
+}

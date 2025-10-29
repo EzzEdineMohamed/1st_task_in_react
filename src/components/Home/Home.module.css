@@ -1,0 +1,23 @@
+.bg_custom {
+    background-color: #1ABC9C;
+}
+
+.reduce_width_of_this {
+    width : 250px;
+}
+
+.left {
+    width : 70px;
+    height: 6px;
+    margin-top : 5px ;
+    margin-right: 10px;
+    background-color: white;
+}
+
+.right {
+    width : 70px;
+    height: 6px;
+    margin-top : 5px ;
+    margin-left: 10px;
+    background-color: white;
+}
