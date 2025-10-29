@@ -2,7 +2,7 @@ import { createRoot } from "react-dom/client";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import "@fortawesome/fontawesome-free/css/all.min.css";
-import About from "./components/about/about.jsx";
+import About from "./components/About/About.jsx";
 import Portfolio from "./components/portfolio/portfolio.jsx";
 import {
   createBrowserRouter,
@@ -21,7 +21,7 @@ const routers = createBrowserRouter([
     element: <MainLayout />,
     children: [
       { path: "/home", element: <Navigate to={"/"} /> },
-      { index: true , element: <Home /> },
+      { index: true, element: <Home /> },
       { path: "about", element: <About /> },
       { path: "portfolio", element: <Portfolio /> },
       { path: "contact", element: <Contact /> },
@@ -35,4 +35,3 @@ createRoot(document.getElementById("root")).render(
     <RouterProvider router={routers} />
   </>
 );
-
