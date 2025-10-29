@@ -3,7 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import About from "./components/About/About.jsx";
-import Portfolio from "./components/Portfolio_temp/Portfolio.jsx";
+import Portfolio from "./components/Portfolio/Portfolio.jsx";
 import {
   createBrowserRouter,
   Navigate,
